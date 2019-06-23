@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="shanw-repo"
+		   fetch="https://github.com/shaobin2010" />
+
+  <default remote="shanw-repo"
+		   sync-j="4" 
+		   revision="master"  />  
+
+  <!-- repo-test projects -->
+  <project name="repo-test" path="repo-test" />
+  <!-- end repo-test projects -->
+  
+</manifest>
