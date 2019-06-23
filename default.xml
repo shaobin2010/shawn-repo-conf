@@ -2,6 +2,7 @@
 <manifest>
 
   <remote  name="shanw-repo"
+  	       alias="origin"
 		   fetch="https://github.com/shaobin2010" />
 
   <default remote="shanw-repo"
